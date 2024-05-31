@@ -500,7 +500,7 @@ h5.title-left {
 }
 
 .navbar-b.navbar-reduce .navbar-toggler span {
-  background-color: #1B1B1B;
+  background-color: #59c79d;
 }
 
 .navbar-b .navbar-brand {
@@ -550,8 +550,8 @@ h5.title-left {
 
 .navbar-toggler span {
   display: block;
-  background-color: #fff;
-  height: 3px;
+  background-color: #59c79d;
+  height: 4px;
   width: 25px;
   margin-top: 4px;
   margin-bottom: 4px;
