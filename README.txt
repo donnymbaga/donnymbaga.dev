@@ -1,18 +1,14 @@
 
 
-Welcome to Donny Mbaga's personal website, I've decided I want 
-this shit for these: 
+Welcome to Donny personal website:
 
-  - The goal of my personal website
+  - Goals: 
 
-  - To showcase what I'll be working on mostly
+      - To show and tell about project I'm undertaking.
 
-  - For pinning down my thoughts
+      - For blogging on tech issues. 
 
-  - For branding Donny Mbaga, as a software Developer
+      - For personal branding, as a software Developer.
 
-  - A piece of memory when I'm gone
+      - A piece of memory when I'm gone.
 
-
-When in home page, hovering on navbar items on the left, they turn white instead
-of the other color, I don't want that.
