@@ -12,3 +12,6 @@ Welcome to Donny personal website:
 
       - A piece of memory when I'm gone.
 
+Next??
+  - To start writing articles 
+  - with a "custom made" blog management system
