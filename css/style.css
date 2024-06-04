@@ -666,8 +666,9 @@ h5.title-left {
 //--//-->   ABOUT
 ======================================*/
 
-.about-info {
-
+.about-mf {
+  font-size: 1.3rem;
+  color: #020202a3;
 }
 
 .about-mf .box-shadow-full {
@@ -1248,7 +1249,7 @@ footer .credits a {
   }
 
   .blog-wrapper .article-title {
-    font-size: 1.9rem;
+    font-size: 2.5rem;
   }
 
   .box-comments .list-comments .comment-author {
