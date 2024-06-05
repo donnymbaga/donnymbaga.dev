@@ -1245,11 +1245,12 @@ footer .credits a {
   .form-comments,
   .box-comments,
   .widget-sidebar {
-    padding: 3rem;
+    padding: 1.5rem;
   }
 
   .blog-wrapper .article-title {
     font-size: 2.5rem;
+    font-weight: 600;
   }
 
   .box-comments .list-comments .comment-author {
