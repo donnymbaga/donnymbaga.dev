@@ -927,6 +927,10 @@ h2.w-title {
 //--//-->   BLOG-SINGLE
 ======================================*/
 
+article {
+
+}
+
 .post-box,
 .form-comments,
 .box-comments,
@@ -946,7 +950,7 @@ h2.w-title {
 
 .blog-wrapper .post-meta ul {
   border-left: 4px solid #0078ff;
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 
 .blog-wrapper .post-meta ul li {
