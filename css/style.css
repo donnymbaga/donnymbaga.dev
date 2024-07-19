@@ -1,11 +1,10 @@
 /*=====================================
-//--//-->   STYLES GENERALES
+//--//-->   STYLES GENERALS
 ======================================*/
 
 body {
-  background-color: #f5f5ee;
-  opacity: 0.8;
-  color: #4e4e4e;
+  background-color: #212529;
+  color: #ffffff;
 }
 
 h1,
@@ -14,11 +13,11 @@ h3,
 h4,
 h5,
 h6 {
-  color: #353535;
+  color: #fff;
 }
 
 a {
-  color: #000000;
+  color: #fff;
   transition: all 0.5s ease-in-out;
 }
 
@@ -120,7 +119,7 @@ a:hover {
 }
 
 .sect-pt4 {
-  padding-top: 3.5rem;
+  padding-top: 2.8rem;
 }
 
 .sect-mt4 {
@@ -142,18 +141,16 @@ a:hover {
 }
 
 .title-a {
-  color: #000;
   font-size: 3rem;
   font-weight: bold;
   text-transform: uppercase;
 }
 
 .subtitle-a {
-  color: #000;
 }
 
 .line-mf {
-  width: 40px;
+  width: 100px;
   height: 5px;
   background-color: #0078ff;
   margin: 0 auto;
@@ -166,19 +163,19 @@ a:hover {
 }
 
 .title-left {
-  font-size: 2rem;
+  font-size: 3rem;
   position: relative;
+  font-weight: 900;
 }
 
 h5.title-left {
-  color: #000;
+  color: #fff;
 }
 
 .title-left:before {
   content: '';
   /*position: absolute;*/
   height: 3px;
-  background-color: #0078ff;
   width: 100px;
   bottom: -12px;
 }
@@ -192,7 +189,6 @@ h5.title-left {
 .box-shadow-full {
   padding: 3rem 1.25rem;
   position: relative;
-  background-color: #59c79d9c;
   margin-bottom: 6rem;
   z-index: 2;
   box-shadow: 0px -15px 17px 17px rgba(0, 0, 0, 0.06), 
@@ -216,8 +212,9 @@ h5.title-left {
   border-radius: 20%;
   line-height: 1.6;
   margin: 0 35px 0 0;
-  box-shadow: 0 0 0 3px #32bb8f;
+  box-shadow: 0 0 0 3px #fff;
   transition: all 200ms ease-out;
+  color: #fff;
 }
 
 
@@ -321,7 +318,7 @@ h5.title-left {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #000;
+  background: #5f5f5f;
   color: #59c79d;
   width: 44px;
   height: 44px;
@@ -415,7 +412,7 @@ h5.title-left {
 
 .navbar-b.navbar-trans .nav-link,
 .navbar-b.navbar-reduce .nav-link {
-  color: #000;
+  color: #fff;
   text-transform: uppercase;
   font-weight: 600;
 }
@@ -458,19 +455,19 @@ h5.title-left {
 }
 
 .navbar-b.navbar-trans .nav-link:hover {
-  color: #59c79d;
+  color: #0078ff;
 }
 
 .navbar-b.navbar-trans .show > .nav-link,
 .navbar-b.navbar-trans .active > .nav-link,
 .navbar-b.navbar-trans .nav-link.show,
 .navbar-b.navbar-trans .nav-link.active {
-  color: #59c79d;
+  color: #fff;
 }
 
 .navbar-b.navbar-reduce {
   transition: all .5s ease-in-out;
-  background-color: #fff;
+  background-color: #33393f;
   padding-top: 15px;
   padding-bottom: 15px;
 }
@@ -480,18 +477,18 @@ h5.title-left {
 }
 
 .navbar-b.navbar-reduce .nav-link:before {
-  background-color: #59c79d;
+  background-color: #0078ff;
 }
 
 .navbar-b.navbar-reduce .nav-link:hover {
-  color: #59c79d;
+  color: #0078ff;
 }
 
 .navbar-b.navbar-reduce .show > .nav-link,
 .navbar-b.navbar-reduce .active > .nav-link,
 .navbar-b.navbar-reduce .nav-link.show,
 .navbar-b.navbar-reduce .nav-link.active {
-  color: #59c79d;
+  color: #0078ff;
 }
 
 .navbar-b.navbar-reduce .navbar-brand {
@@ -503,7 +500,7 @@ h5.title-left {
 }
 
 .navbar-b .navbar-brand {
-  color: #32bb89;
+  color: #ffffff;
   font-size: 1.6rem;
   font-weight: 600;
 }
@@ -598,7 +595,6 @@ h5.title-left {
 .intro {
   height: 100vh;
   position: relative;
-  color: #32bb89;
 }
 
 .intro .intro-content {
@@ -607,7 +603,6 @@ h5.title-left {
 }
 
 .intro .overlay-itro {
-  /*background-color: rgba(0, 0, 0, 0.6);*/
   position: absolute;
   top: 0;
   left: 0px;
@@ -618,22 +613,14 @@ h5.title-left {
 }
 
 .intro .intro-title {
-  color: #32bb89;
-  font-weight: 600;
-  font-size: 3rem;
+  color: #fff;
+  font-weight: 300;
+  font-size: 1.5rem;
 }
 
 .intro .intro-subtitle {
   font-size: 1.5rem;
   font-weight: 300;
-}
-
-.intro .text-slider-items {
-  display: none;
-}
-
-.intro-single {
-  height: 350px;
 }
 
 .intro-single .intro-content {
@@ -642,7 +629,7 @@ h5.title-left {
 
 .intro-single .intro-title {
   text-transform: uppercase;
-  font-size: 3rem;
+  font-size: 1rem;
 }
 
 .intro-single .breadcrumb {
@@ -668,7 +655,7 @@ h5.title-left {
 
 .about-mf {
   font-size: 1.3rem;
-  color: #020202a3;
+  color: #fff;
 }
 
 .about-mf .box-shadow-full {
@@ -790,7 +777,7 @@ h5.title-left {
 }
 
 .work-content {
-  padding: 2rem 3% 1rem 4%;
+  padding: 2rem 2% 1rem 4%;
 }
 
 .work-content .w-more {
@@ -821,7 +808,13 @@ h5.title-left {
 }
 
 h2.w-title {
-  color: #000000;
+  color: #353535;
+  font-weight: 900;
+}
+
+h2.w-title:hover {
+  text-decoration: underline;
+  color: #0078ff;
 }
 
 /*======================================
@@ -890,7 +883,7 @@ h2.w-title {
   color: #fff;
   padding: 0 15px 5px;
   overflow: hidden;
-  background-color: #0078ff;
+  background-color: #212529;
   border-radius: 4px;
 }
 
@@ -904,13 +897,26 @@ h2.w-title {
 }
 
 .card-blog .card-title {
-  font-size: 1.3rem;
-  margin-top: .6rem;
+  font-size: 2.0rem;
+  margin-top: .3rem;
+}
+
+h3.card-title a {
   color: #000;
 }
 
+.card-title a:hover {
+  text-decoration: underline;
+  color: #0078ff;
+}
+
+.post-author a {
+  color: #212529;	 
+  font-weight: 900;
+}
+
 .card-blog .card-description {
-  color: #000000;
+  color: #000;
 }
 
 .card-blog .post-author {
@@ -921,6 +927,9 @@ h2.w-title {
   color: #4e4e4e;
   display: inline-block;
   float: right;
+}
+
+.card-footer {
 }
 
 /*======================================
@@ -1079,9 +1088,6 @@ article {
 //--//-->   FOOTER
 ======================================*/
 
-.copyright strong {
-  color: #59c79d; 
-}
 
 footer {
   text-align: center;
@@ -1091,15 +1097,14 @@ footer {
 
 footer .copyright {
   margin-bottom: .3rem;
-  color: #000;
 }
 
 footer .credits {
   margin-bottom: 0;
 }
 
-footer .credits a {
-  color: #fff;
+.copyright strong {
+  color: #59c79d; 
 }
 
 /*======================================
@@ -1230,11 +1235,11 @@ footer .credits a {
   }
 
   .intro .intro-title {
-    font-size: 4.0rem;
+    font-size: 3.5rem;
   }
 
   .intro .intro-subtitle {
-    font-size: 2.5rem;
+    font-size: 2.0rem;
   }
 
   .intro-single .intro-title {
